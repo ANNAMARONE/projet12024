@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+img{
+    height: 90px;
+    width: 100px;
+  
+}
+header{
+    display: flex;
+    margin: 40px;
+    margin-left: 10%;
+   justify-items: flex-end;
+   justify-content: space-between;
+   box-shadow: 15px
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    margin: 30px;
+}
+a:hover{
+    text-decoration: underline red;
+    font-size: 30px;
+    color: red;
+  
+}
+ul{
+    margin-left: 5%;
+}
+#pet-select{
+border: none;
+color: red;
+background-color: white;
+
+margin-bottom: 40px;
+
+}
+i{
+    margin-top: 20px;
+    margin:10px;
+}
+.btn{
+margin-top: 20px;
+margin-bottom: 20px;
+padding-right: 50px;
+padding-left: 50px;
+border-radius: 15px;
+margin: 20px;
+}
+/*section  numero un*/
+.section1{
+    background-image:url(image/26.png);
+    background-size: cover;
+    height: 550px;
+background-repeat: no-repeat;
+
+}
+#section1{
+   padding-top: 10%;
+   color: white;
+   font-weight: bolder;
+   font-size: 20px;
+   margin-left: 10%;
+}
+.titre1{
+ 
+    font-size: 35px;
+    font-weight: bold;
+}
+.contact{
+padding-top: 10px;
+padding-bottom: 10px;
+padding-right: 50px;
+padding-left: 50px;
+border-radius: 15px;
+margin: 20px;
+border: none;
+background-color: red;
+color: white;
+
+}
