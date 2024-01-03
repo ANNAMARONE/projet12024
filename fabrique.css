@@ -81,15 +81,16 @@ color: white;
 #section1{
 margin-left: 40%;
 display: flex;
-background-color: #ce0033;
+background-color: rgba(224, 35, 35, 0.5);
 margin-top: -10%;
 margin-right: 30%;
 margin-left: 20%;
 padding: -80px;
-padding-bottom: -20px;
+padding: -50px;
 justify-content: space-between;
 }
 .titre1{
  margin: 10%;
 color: white;
+padding: -40px;
 }
