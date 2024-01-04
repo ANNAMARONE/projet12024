@@ -224,7 +224,7 @@ color:white;
 /* section numero cinq */
 .padago{
     display: flex;
-    margin-left: 10%;
+    margin-left: 20%;
 }
 .titre5{
     color: #ce0033;
@@ -258,4 +258,51 @@ color:white;
 }
 .section5{
     margin-top: 5%;
+}
+/* section numero 6 */
+.valeur{
+    display: flex;
+    margin-left:20%;
+   padding-top: 3%;
+}
+.parg6{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+  
+}
+.btn6{
+    margin-left: 5%;
+    padding: 10px;
+    background-color: #ce0033;
+    color: white;
+    border: 1px solid white;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    font-weight: bold;
+    border-radius: 30px;
+   padding-left: 50px;
+   padding-right: 50px;
+}
+.tiquette{
+    margin-left: 10%;
+
+}
+.resp2_1{
+    display: flex;
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.badge{
+    margin-right: 20%;
+    padding-top: 5%;
+    border-radius: 100%;
+    background-color: rgba(238, 195, 206, 0.904);
+    color:#ce0033;
+    font-size: 20px;
+    font-weight: bold;
+    height: 50px;
+    width: 50px;
+    text-align: center;
 }
