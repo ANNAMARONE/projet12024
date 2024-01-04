@@ -81,7 +81,7 @@ color: white;
 #section1{
 margin-left: 40%;
 display: flex;
-background-color: rgba(224, 35, 35, 0.5);
+background-color: rgba(206, 0, 51, 0.7);
 margin-top: -10%;
 margin-right: 30%;
 margin-left: 20%;
@@ -89,28 +89,59 @@ padding: -80px;
 padding: -50px;
 justify-content: space-between;
 }
+
+  
+/* section numero 2 */
+.titreH{
+    color: #ce0033;
+    text-align: center;
+    padding-top: 5%;
+}
 .titre1{
  margin: 10%;
 color: white;
 padding: -40px;
 }
+.petite_p{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.barre{
+    width: 10px;
+    height: 150px;
+    margin: 10px;
+ 
+   background-color: white;
+   color: white;
+}
 .parg1{
     margin-left: 40%;
 display: flex;
-background-color: rgba(224, 35, 35, 0.5);
+background-color: rgba(206, 0, 51,0.7);
 color: white;
 margin-right: 30%;
 margin-left: 20%;
-
 justify-content: space-between;
 }
-.section7{
+/* voici la section numero 3 */
+.section3{
     margin-top: 2%;
+    background-color:  #f5f3f3;
+  
+}
+hr{
+    width: 40%;
 }
 .point{
     display: flex;
   margin: 5%;
   margin-left: 50%;
+  background-color: #f5f3f3;
+padding: 20px;
+margin-top: -1%;
+padding-left: 50%;
+margin-left: 0%;
+margin-right: 0%;
 }
 .point1{
     border-radius: 100%;
@@ -118,6 +149,7 @@ justify-content: space-between;
     width: 10px;
     height: 10px;
     margin: 10px;
+   
 }
 .point2{
     border-radius: 45%;
@@ -125,32 +157,41 @@ justify-content: space-between;
       width: 50px;
       height: 10px;
       margin: 10px;
+   
+      
 }
-#section7{
+#section3{
     display: flex;
-margin-left: 10%;
+margin-left: 20%;
 background-color: #f5f3f3;
-margin-right: 30%;
+margin-right: 20%;
 justify-content: space-between;
 
 }
-.titre7{
+.titre3{
     color: #ce0033;
     font-size: 30px;
     margin: 10px;
 }
-.parg11{
+.parg3{
     margin: 30px;
     background-color: #f5f3f3;
     padding: 50px;
+    text-align: center;
+    padding-top: 5px;
 }
 .appr{
     background-image: url(image/26.png);
     width: 500px;
-    border-radius: 5px;
-    box-shadow: 0px 5px  red;
-}.h1{
-    color: #ce0033;
-    text-align: center;
-    padding-top: 5%;
+   
 }
+.btn3{
+    padding: 15px;
+    margin-left: 90%;
+    margin-top: 10%;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+background-color: #ce0033;
+color:white;
+}
+/* section numero quatre */
