@@ -93,8 +93,11 @@ justify-content: space-between;
   
 /* section numero 2 */
 .titreH{
-    color: #ce0033;
     text-align: center;
+    color: #ce0033;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 40px;
     padding-top: 5%;
 }
 .titre1{
@@ -195,3 +198,64 @@ background-color: #ce0033;
 color:white;
 }
 /* section numero quatre */
+.titre4{
+   text-align: center;
+   color: #ce0033;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-weight: bold;
+   font-size: 40px;
+}
+.section4_1{
+    display: flex;
+    margin-left: 20%;
+    padding-top: 3%;
+ 
+   
+}
+.iframe1{
+    width:500px;
+    height:315px;
+   
+}
+.section4_2{
+    margin-left: 10%;
+    font-size: 30px;
+}
+/* section numero cinq */
+.padago{
+    display: flex;
+    margin-left: 10%;
+}
+.titre5{
+    color: #ce0033;
+    font-size: 30px;
+   margin-left: 20%;
+}
+.img2{
+    width: 500px;
+    height: 600px;
+    border-radius: 15px;
+    margin-left: 20%;
+    padding-top: 5%;
+}
+.carte{
+    display: flex;
+}
+.icon_carte{
+    width: 70px;
+    height: 70px;
+}
+.carte1_8{
+    margin-left: 10%;
+    padding-top: 2%;
+}
+.carte2{
+    margin: 5%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-bottom: 3px solid #ce0033;
+    width: 300px;
+   
+}
+.section5{
+    margin-top: 5%;
+}
