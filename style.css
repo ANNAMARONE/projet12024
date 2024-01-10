@@ -104,7 +104,7 @@ background-repeat: no-repeat;
         background-repeat: no-repeat;
         background-size: cover;
         border-radius: 1rem;
-        margin-left: 4rem;
+        margin-left: 2.5rem;
     }
     .box-contain-img{
         width: 80%;
@@ -125,7 +125,7 @@ background-repeat: no-repeat;
        
     }
     .box-contain-texte p{
-        font-size: 22px;
+        font-size: 1rem;
         color: #000000;
         font-weight: 600;
         text-align: center;
@@ -154,9 +154,9 @@ background-repeat: no-repeat;
     .container h2{
         position: absolute;
         color: #ce0033;
-        font-size: 30PX;
+        font-size: 2rem;
         margin-top: -3rem;
-        margin-left: -25rem;
+        margin-left: -2rem;
     }
       .box {
         width: 200px;
@@ -204,7 +204,7 @@ background-repeat: no-repeat;
       .contain-plus{
         width: 300px;
         height: 60px;
-        margin-left: 11rem;
+        
         display: flex;
         justify-content: space-evenly;
         align-items: center;
@@ -247,6 +247,7 @@ background-repeat: no-repeat;
         display: flex;
         gap: 10px;
         justify-content: center;
+        position: absolute;
       }
 
       .contain-two-box-red .box-red{
@@ -258,7 +259,7 @@ background-repeat: no-repeat;
       }
       .box-red h3{
         color: white;
-        font-size: 15px;
+        font-size: 0.5rem;
         margin-left: -3rem;
        
       }
@@ -275,24 +276,23 @@ background-repeat: no-repeat;
         height: 40px;
         border-radius: 100%;
         background-color:#ffffff;
-        margin-left: 23rem;
         margin-top: 2rem;
         border: none;
-        position: absolute;
+       
 
       }
       .box-red h2{
         font-weight: 600;
         color: white;
-       font-size: 30px;
+       font-size: 2rem;
       margin-left: -26rem;
       margin-top: 1rem;
       position: absolute;
       }
       .box-red p{
       color: white;
-      position: absolute;
-      margin-left: -27rem;
+     
+     
       margin-top: 3rem;
       }
     .section-decouverte{
@@ -311,13 +311,13 @@ background-repeat: no-repeat;
         background-size: cover;
     }
     .section-decouverte .title-decouverte{
-        font-size: 35px;
+        font-size: 1rem;
         font-weight: 700;
         color: white;
         filter: brightness(1.5); 
     }
     .section-decouverte p{
-        font-size: 22px;
+        font-size: 1rem;
         color: rgb(255, 255, 255);
         filter: brightness(1.5); 
     }
@@ -338,13 +338,13 @@ background-repeat: no-repeat;
         height: 200px;
     }
     .box-number span{
-        font-size: 20px;
+        font-size: 1rem;
         color: white;
         font-weight: 700;
         margin-left: 13rem;
     }
     .box-number h4{
-        font-size: 20px;
+        font-size: 2rem;
         color: white;
         margin-left: 5rem;
         margin-top: 2rem;
@@ -373,9 +373,10 @@ background-repeat: no-repeat;
     .contain-same-image {
         width: 100%;
         height: 700px;
-        margin-top: 10rem;
+        position: relative;
         flex-direction: column; 
         padding-left: 4rem;
+        margin-top: 15rem;
     }
     .contain-same-image .box-image-samba{
         width: 90%;
@@ -410,18 +411,16 @@ background-repeat: no-repeat;
         color: white;
         background-color: #ce0033;
         border-radius: 1rem;
-        position: absolute;
         font-size: 18px;
-        margin-top: 15rem;
-        margin-left: 27rem;
+       
+       
     }
     .line-red{
-        position: absolute;
+      
         height: 70px;
         width: 10px;
         background-color: #ce0033;
-        margin-left: 15rem;
-        margin-top: -4rem;
+        
     }
     .all-btn{
         width: 100%;
@@ -429,6 +428,7 @@ background-repeat: no-repeat;
         display: flex;
         align-items: center;
         justify-content: center;
+        margin-top: 2rem;
     }
     .all-btn .btn{
         width: 1rem;
@@ -439,8 +439,8 @@ background-repeat: no-repeat;
         border: none;
     }
     .all-btn .btn-long{
-        width: 4rem;
-        height: 1rem;
+        width: 2rem;
+        height: 0.5rem;
         border-radius: 1rem;
         background-color: #ce0033;
         margin-left: 1rem;
@@ -509,7 +509,7 @@ background-repeat: no-repeat;
         box-shadow: 8px  8px 8px 8px rgb(243, 240, 240);
     }
     .box-lorem p{
-        font-size: 24px;
+        font-size: 2rem;
     }
     .box-lorem h1{
         color: #ce0033;
@@ -523,7 +523,7 @@ background-repeat: no-repeat;
         margin-top: -0.5rem;
     }
     .down-image p{
-        font-size: 20px;
+        font-size: 1rem;
         color: black;
         font-weight: 600;
         margin-left: 3rem;
@@ -628,9 +628,9 @@ background-repeat: no-repeat;
   .all-alumni img{
     width: 100px;
     height: 100px;
-    margin-left: 16rem;
+   
     margin-top: 2rem;
-    position: absolute;
+    
 
   }
   .all-alumni-lorem{
@@ -697,14 +697,13 @@ img {
     
 }
 .box p{
-    font-size: 20px;
+    font-size: 1rem;
 }
 .box-contact{
     width: 100%;
     height: 100vh;
-    
     position: absolute;
-    margin-top: 58rem;
+    margin-top: 80rem;
     padding-top: 5rem;
 }
 .box-contact h1{
@@ -768,6 +767,7 @@ button:hover {
 .box-info-contact .contact-info{
   width: 25%;
   height: auto;
+  margin-left:-2rem ;
 
 }
 .box-footer{
@@ -834,5 +834,109 @@ button:hover {
     .newsletter-form {
         flex: 1;
         margin-right: 20px;
+    }
+}
+
+/* Reset some default styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Mobile Responsive Styles */
+@media only screen and (max-width: 768px) {
+    header {
+        text-align: center;
+    }
+
+    nav {
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    nav a {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .titre1 {
+        font-size: 1.5em;
+    }
+
+    .contact {
+        font-size: 0.8em;
+        padding: 5px 10px;
+    }
+
+    /* ... (continue with the rest of your styles) */
+
+    .contain-plus h3,
+    .contain-plus button,
+    .evenement-avenir,
+    .contain-two-box-red h2,
+    .contain-two-box-red p,
+    .contain-two-box-red h3,
+    .contain-two-box-red span,
+    .contain-two-box-red button,
+    .contain-same-image .box-profil h2,
+    .contain-same-image .box-profil hr,
+    .contain-same-image .box-profil h4,
+    .contain-same-image .box-profil p em,
+    .contain-same-image button,
+    .all-apprenant-contain .barre-red-app h2,
+    .all-apprenant-contain .down-image p,
+    .all-apprenant-contain .box-lorem h1,
+    .all-apprenant-contain .box-lorem hr,
+    .all-apprenant-contain .box-lorem p,
+    .all-apprenant-contain .box-lorem h1,
+    .all-apprenant-contain .box-lorem hr,
+    .all-apprenant-contain .box-lorem p,
+    .all-apprenant-contain .box-lorem h1,
+    .all-apprenant-contain .box-lorem hr,
+    .all-apprenant-contain .box-lorem p,
+    .all-apprenant-contain .box-lorem h1,
+    .all-apprenant-contain .box-lorem hr,
+    .all-apprenant-contain .box-lorem p,
+    .box-equipe-pedagogie h1,
+    .box-equipe-pedagogie hr,
+    .box-equipe-pedagogie .barre-red-equipe h2,
+    .all-alumni .barre-red h2,
+    .all-alumni .down-image p,
+    .all-alumni-lorem h1,
+    .all-alumni-lorem hr,
+    .all-alumni-lorem p,
+    .box-histoire-communaute h1,
+    .box-histoire-communaute hr,
+    .box-histoire-communaute .box p,
+    .box-histoire-communaute h2 {
+        font-size: 1.2em;
+    }
+
+    /* ... (continue with the rest of your styles) */
+
+    .box-footer p a {
+        font-size: 0.8em;
+    }
+
+    footer div {
+        margin-bottom: 15px;
+    }
+
+    .newsletter-form label,
+    .newsletter-form input,
+    .newsletter-form button {
+        width: 100%;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+    }
+
+    .box-footer form {
+        display: flex;
+        flex-direction: column;
     }
 }
